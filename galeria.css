@@ -1,0 +1,26 @@
+
+
+body {
+background: burlywood;
+box-sizing: border-box;
+margin: 10%;
+
+}
+
+.titulo {
+    text-align: center;
+    color: dimgrey;
+    border-bottom: 2px solid #D64933;
+}
+
+
+#form image{
+    position: relative;
+    left: 0;
+    width: 50%;
+    margin: auto;
+
+}
+
+
+
