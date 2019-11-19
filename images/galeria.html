@@ -6,23 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Galería</title>
     <link rel="stylesheet" href="/Galeria/galeria.css" type="text/css">
+    <script src="/Galeria/galeria.js" type="text/javascript"></script>
 </head>
-<body>
+<body  >
 
     <h1 class="titulo"> GALERIA DE IMAGENES </h1>
-    <form name="form">
-  
-        <img src="panda.jpg" width="450" height="550" id="foto"> 
-        <br>
-        <br>
 
-    </form>
+    <div id="imagen" 
+   
+    >
+    </div>
 
-    <input type="button" value="Anterior" onclick="atras();"/>
-        <input type="button" value="Iniciar" name="Iniciar" id="Iniciar"/>
-        <input type="button" value="Siguiente" onclick="siguiente();"/>
-        
+    <div id="botones">
+
+        <button id="anterior" onclick="anterior();">Anterior</button>
+        <button id="inicio" onclick="inicio();">Iniciar</button>
+        <button id="siguiente" onclick="siguiente();">Siguiente</button>
+   
+    </div>
+
+   
     
-    <script src="/Galeria/galeria.js" type="text/javascript"></script>
+  
 </body>
 </html>
